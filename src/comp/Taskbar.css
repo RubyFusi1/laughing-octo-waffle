@@ -1,0 +1,141 @@
+.taskbar{
+  background-color:#D4D0C8;
+  box-shadow: inset 0px 2px 0px rgba(212, 208, 200, 1),
+  inset 0px 4px 0px rgba(255, 255, 255, 1);
+   ;
+   padding: 2px 0px 0px 4px;
+}
+
+.start-button {
+  width: 67px;
+  height: 36px;
+  background-color:#D4D0C8;
+  box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 1),
+   inset -1px -1px 0px rgba(0, 0, 0, 0.65);
+ border: none;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* transition-duration: 0.4s; */
+  cursor: pointer;
+  margin-right:4px ;
+}
+
+.start-button.on {
+  box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.65),
+  inset -1px -1px 0px rgba(255, 255, 255, 1) ;
+}
+
+.taskbar-rectb1 {
+  width: 2px;    /* Adjust as needed */
+  height: 36px;   /* Adjust as needed */
+  background-color: #808080; /* Adjust as needed */
+  margin-right:2px ;
+  box-shadow: inset -1px 0px 0px rgba(255, 255, 255, 1);
+}
+.taskbar-rectb2 {
+  width: 4px;    /* Adjust as needed */
+  height: 32px;   /* Adjust as needed */
+  background-color: #D4D0C8; /* Adjust as needed */
+  box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 1),
+  inset -1px -1px 0px rgba(128, 128, 128, 1);
+  margin-right:10px ;
+}
+
+.start-menu{
+  height: 354px;
+  width: 210px;
+  background-color: #D4D0C8; 
+  position: fixed;
+  bottom: 4.5vh;
+  box-shadow: inset -2px -2px 0px rgba(63, 68, 75,1),
+   inset 2px 2px 0px rgba(212, 208, 200, 1),
+  inset -4px -4px 0px rgba(128, 128, 128, 1),
+  inset 4px 4px 0px rgba(255, 255, 255, 1);
+}
+
+.start-graph{
+  height: 342px;
+  width: 22px;
+  background-color: blue;
+  margin: 6px 6px 6px 6px;
+}
+
+.start-items{
+  position: fixed;
+  height: 35px;
+  width: 172px;
+  background-color: pink;
+  left:30px;
+}
+.start-divide{
+  position: fixed;
+  height: 3px;
+  width: 172px;
+  background-color: #808080;
+  box-shadow: inset 0px 1.5px 0px rgba(255, 255, 255, 1);
+  
+  left:30px;
+
+}
+
+#sDivide1{
+  bottom:350px;
+}
+#sDivide2{
+  bottom:98px;
+}
+
+#sItem1{
+  bottom:354px;
+}
+#sItem2{
+  bottom:314px;
+}
+#sItem3{
+  bottom:278px;
+}
+#sItem4{
+  bottom:242px;
+}
+#sItem5{
+  bottom:206px;
+}
+#sItem6{
+  bottom:170px;
+}
+#sItem7{
+  bottom:134px;
+}
+#sItem8{
+  bottom:98px;
+}
+#sItem9{
+  bottom:59px;
+}
+
+
+.state-button.off {
+  margin-right:10px ;
+  border:none;
+  background-color: #D4D0C8; 
+
+}
+
+.state-button.on {
+  margin-right:10px ;
+  border:none;
+  background-color: #D4D0C8; 
+  box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.65),
+  inset -1px -1px 0px rgba(255, 255, 255, 1) ;
+
+}
+
+.state-button.standby {
+  margin-right:10px ;
+  border:none;
+  background-color: #D4D0C8; 
+  box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 1),
+  inset -1px -1px 0px rgba(0, 0, 0, 0.65);
+}
