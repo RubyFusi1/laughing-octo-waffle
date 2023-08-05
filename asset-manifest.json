@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/laughing-octo-waffle/static/css/main.32f6ea9a.css",
+    "main.js": "/laughing-octo-waffle/static/js/main.69b96789.js",
+    "static/js/787.252c5a3f.chunk.js": "/laughing-octo-waffle/static/js/787.252c5a3f.chunk.js",
+    "static/media/Windows Regular.ttf": "/laughing-octo-waffle/static/media/Windows Regular.1418bf0ef20f202d5c85.ttf",
+    "index.html": "/laughing-octo-waffle/index.html",
+    "main.32f6ea9a.css.map": "/laughing-octo-waffle/static/css/main.32f6ea9a.css.map",
+    "main.69b96789.js.map": "/laughing-octo-waffle/static/js/main.69b96789.js.map",
+    "787.252c5a3f.chunk.js.map": "/laughing-octo-waffle/static/js/787.252c5a3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32f6ea9a.css",
+    "static/js/main.69b96789.js"
+  ]
+}
